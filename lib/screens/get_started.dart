@@ -1,0 +1,12 @@
+import 'package:flutter/material.dart';
+
+class GetStarted extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('this is the appbar'),
+      ),
+    );
+  }
+}
